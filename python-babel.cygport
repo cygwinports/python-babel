@@ -1,0 +1,13 @@
+ORIG_PN="Babel"
+inherit python-wheel
+
+NAME="python-babel"
+VERSION=2.5.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python internationalization utilities"
+DESCRIPTION="A collection of tools for internationalizing Python applications."
+
+ARCH=noarch
+
+python3_babel_CONTENTS+=" usr/bin/pybabel"
